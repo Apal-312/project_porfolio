@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #daf0ff;
+}
+
+.nav__inner_list p {
+  color: #666666;
+  margin-right: 20px;
+  margin-top: 1px; /* Отступ сверху */
+  margin-bottom: 300px; /* Отступ снизу */
+  padding: 0 30px; /* Внутренние отступы слева и справа по 78px */
+  margin: 0 30px; /* Отступы сверху и снизу равны 0, отступы слева и справа по 67px */
+}
+
+.nav__inner_list {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__inner_list p {
+  padding: 0 30px; /* Внутренние отступы слева и справа по 78px */
+  margin: 0 30px; /* Отступы сверху и снизу равны 0, отступы слева и справа по 67px */
+}
+
+nav .nav__inner_list button {
+  width: 122px;
+  height: 35px;
+  background-color: #0f2336;
+  color: #fff;
+  border: 1px solid #0f2336;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav .nav__inner_list button:hover {
+  background-color: red; /* Изменение цвета фона при наведении */
+  border-color: #1a4067; /* Изменение цвета границы при наведении */
+  color: #fff; /* Изменение цвета текста при наведении */
+}
+
+.nav__inner_list img {
+  width: 60px;
+  height: 30px;
+  margin-right: 23px;
+  animation-name: pulsing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+.icon {
+  color: #666666;
+}
+
+.info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 58px;
+  font-weight: 500; /* толщина шрифта примерно равна полужирному (bold) */
+  color: #42446e;
+  margin: 250px;
+  margin-left: 150px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  position: relative; /* Устанавливаем позицию элемента как относительную */
+}
+
+.info img {
+  width: 30%;
+  height: auto;
+  margin-right: 300px;
+  position: absolute; /* Устанавливаем позицию картинки как абсолютную */
+  top: -20px; /* Поднимаем картинку на 20px вверх */
+  right: 10px; /* Перемещаем картинку на 20px вправо */
+  margin: 250px;
+  margin-left: 30px;
+  animation-name: pulsing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+.info-2 {
+  text-align: center;
+}
+
+.info-2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #575a95;
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-left: 200px;
+  text-align: left;
+}
+
+.info-2 .description p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #575a95;
+  line-height: 1.6;
+  margin-top: 20px; /* Отступы между предложениями*/
+  margin-top: 20px; /* Добавляем отступ сверху */
+  margin-left: 150px; /* Сдвигаем текст немного направо */
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.info-3 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #575a95;
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-left: 200px;
+  text-align: left;
+}
+
+.info-3 .description ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #575a95;
+  line-height: 1.6;
+  margin-top: 40px; /* Добавляем отступ сверху */
+  margin-left: 220px; /* Сдвигаем текст немного направо */
+  text-align: left;
+  margin-bottom: 70px;
+  margin-left: 30px;
+  animation-name: pulsing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+.info-4 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #575a95;
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-left: 200px;
+  text-align: left;
+}
+
+.info-4 .description p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #575a95;
+  line-height: 1.6;
+  margin-top: 20px; /* Отступы между предложениями*/
+  margin-top: 20px; /* Добавляем отступ сверху */
+  margin-left: 150px; /* Сдвигаем текст немного направо */
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.info-5 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #575a95;
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-left: 200px;
+  text-align: left;
+}
+
+.info-5 .description ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #575a95;
+  line-height: 1.6;
+  margin-top: 40px; /* Добавляем отступ сверху */
+  margin-left: 220px; /* Сдвигаем текст немного направо */
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.info-6 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #575a95;
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-left: 200px;
+  text-align: left;
+}
+
+.info-6 .description ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #575a95;
+  line-height: 1.6;
+  margin-top: 40px; /* Добавляем отступ сверху */
+  margin-left: 220px; /* Сдвигаем текст немного направо */
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+footer {
+  background-color: rgb(140, 140, 255); /* Цвет фона футера */
+  padding: 20px; /* Внутренний отступ футера */
+}
+
+.footer-content {
+  max-width: 800px; /* Максимальная ширина контента футера */
+  margin: 0 auto; /* Выравнивание контента по центру */
+}
+
+.footer-content p {
+  font-size: 20px; /* Размер шрифта для текста */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none; /* Удаление маркеров списка */
+  padding: 0; /* Удаление внутренних отступов для списка */
+  margin-top: 10px; /* Верхний отступ для списка */
+  text-align: center;
+}
+
+.social-links li {
+  display: inline; /* Отображение элементов списка в строку */
+  margin-right: 10px; /* Правый отступ между элементами списка */
+}
+
+.social-links li:last-child {
+  margin-right: 0; /* Удаление правого отступа у последнего элемента списка */
+}
+
+.social-links li a {
+  text-decoration: none; /* Удаление подчеркивания ссылок */
+  color: #333; /* Цвет текста ссылок */
+}
+
+.social-links li a:hover {
+  color: red; /* Изменение цвета текста при наведении */
+}
+.footer-content p:hover {
+  color: red; /* Изменение цвета текста при наведении */
+}
+
+.footer-content {
+  transition: transform 0.3s ease; /* Добавляем плавную анимацию для свойства transform */
+}
+
+.footer-content:hover {
+  transform: scale(1.1); /* Увеличиваем размер блока при наведении */
+}
+
+@media all and (max-width: 1024px) {
+  .nav__inner_list {
+    font-size: 12px;
+  }
+  .info p {
+    font-size: 40px;
+  }
+
+  .info img {
+    width: 20%;
+    top: -40px;
+    right: -100px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .info img {
+    right: -250px;
+  }
+}
